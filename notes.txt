@@ -1,0 +1,31 @@
+https://www.youtube.com/watch?v=BMzp_U6IkoY&t=2s
+What is collection?
+ANS:any group of individual objects which are represent as a single unit is called collection of objects.
+
+java.util
+1] collection 2] Map 3] Set 4] List 5] Queue 
+
+Hierarchy
+Iterable(I) (for-each)
+    |
+    v
+Iterator(I)(forword)(List family) (Has a) [ListIterator - backword]
+    |
+    v
+Collection(I)
+1] List(I) [indexed(0,1.2),ordered,duplicates]  
+    a] ArrayList (C) [dynamic array]
+    b] LinkedList (C) [Dubly LL]
+    c] Vector (C) [dynamic array, legacy class, thread safe](enumaration(I))
+        1] Stack (C)
+2] Set(I) [not indexed, not ordered, not duplicates]
+    a] hashSet(C)
+        1] LinkedhashSet(C)
+    b] SortedSet(I)
+        1] TreeSet (C) [BST, sorted, asc num, string , custome logic]
+
+3] Map (I)
+    a] HashMap (C)
+        1] LinkedHashMap(C)
+    b] SortedMap (I)
+        1] TreeMap (C)
